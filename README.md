@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Authors
+
+- [@JosipHowler](https://github.com/JosipHowler)
+
+## API Documentation
+
+ - [Bitly API documentation](https://dev.bitly.com/)
+
+## API Reference
+
+#### Shorten a link
+
+```http
+  POST /v4/shorten
+```
+
+| Parameter | Type     | Description  |
+| :-------- | :------- | :------------|
+| `long_url` | `string` | **Required**|
+
+## Tech Stack
+
+**Client:** React, Axios
+
+## Dodatno
+
+Za dobivanje access token-a potrebnog za koristenje stranice, potrebno je otici na API stranicu, napraviti account, otici u settings i generirati ga.
